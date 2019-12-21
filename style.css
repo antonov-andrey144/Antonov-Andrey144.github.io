@@ -1,0 +1,104 @@
+body{
+	background-image : url('img/bg.jpg');
+	background-position : center top;
+	background-attachment : fixed;
+	background-size : cover;
+	color : #FFFFFF;
+	font-family : Tahoma;
+}
+div{
+	border : 0px solid white;
+}
+p{
+	text-indent: 20px;
+}
+div.centr {
+	text-align: center;
+}
+
+.wraper{
+	width : 1000px;
+	margin : 0 auto;
+}
+
+.header{
+	width : 100%;
+}
+.site-name{
+	font-size : 30pt;
+	text-align : center;
+	margin-top : 25px;
+}
+.site-description{
+	font-size : 20pt;
+	text-align : center;
+	margin-top : 10px;
+}
+
+.middle{
+	color : #000000;
+	font-size : 20pt;
+	margin-top : 0px;
+}
+#side-menu{
+	position : fixed;
+	width : 230px;
+	margin-left : -240px;
+	background : #FFFFFF;
+	text-align : center;
+}
+#side-menu a{
+	text-align : center;
+	color : #000000;
+	text-decoration : none;
+	margin-top : 0px;
+}
+#side-menu a:hover{
+	text-decoration : underline;
+}
+.content{
+	background : #FFFFFF;
+	padding : 10px 30px;
+	text-align : justify;
+}
+.footer{
+	width : 100%;
+	background : #FFFFFF;
+	height : 50px;
+	margin-top : 20px;
+}
+.info{
+	color : #000000;
+	text-align : center;
+	font-size : 15pt;
+	padding-top : 0px;
+}
+
+.site-menu{
+	text-align : center;
+	list-style : none;
+	margin : 0;
+	margin-top : 20px;
+	padding-left : 0;
+	display:flex;
+	justify-content : space-between;
+}
+.site-menu-item a{
+	display : block;
+	width : 200px;
+	height : 65px;
+	text-decoration : none;
+	color : #FFFFFF;
+	font-size : 20pt;
+	padding-top : 10px;
+}
+.active a{
+	background : #FFFFFF;
+	color : #000000;
+}
+.site-menu-item a:hover{
+	color : #000000;
+	background : #EEEEEE;
+	opacity: 0.5;
+	transition: .3s;
+}
